@@ -3,7 +3,6 @@
 # Set warning message
 echo "==================================="
 echo "WARNING: coma-Linux installed"
-echo "         (https://qntm.org/coma)"
 echo "==================================="
 echo
 
