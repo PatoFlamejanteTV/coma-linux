@@ -2,8 +2,8 @@
 
 # Set warning message
 echo "==================================="
-echo "WARNING: Suicide-Linux installed"
-echo "         (https://qntm.org/suicide)"
+echo "WARNING: coma-Linux installed"
+echo "         (https://qntm.org/coma)"
 echo "==================================="
 echo
 
@@ -40,11 +40,11 @@ function __sl_set_ps1 {
      if [ -z "$FAILED_AT" ]; then
           PROMPT_COLOR=$CLR_L_GREEN
           COUNT_COLOR=$CLR_YELLOW
-          TERMINAL_TITLE="Suicide Linux"
+          TERMINAL_TITLE="coma Linux"
      else
           PROMPT_COLOR=$CLR_L_RED
           COUNT_COLOR=$CLR_L_RED
-          TERMINAL_TITLE="Suicide Linux | kaboom betch XP"
+          TERMINAL_TITLE="coma Linux | kaboom betch XP"
      fi
 
      TERMINAL_TITLE="$TERMINAL_TITLE | survived $COUNT commands"
